@@ -1,0 +1,105 @@
+aid: legalzoom
+name: LegalZoom
+description: >-
+  LegalZoom.com, Inc. (NASDAQ: LZ) is a Glendale, California online legal
+  technology and services company that helps individuals and small businesses
+  create legal documents and form, run, and grow their businesses without
+  necessarily hiring an attorney. Founded in 1999, LegalZoom offers business
+  formation services (LLC, S-Corp, C-Corp, nonprofit, DBA), registered agent
+  service, EIN/tax ID filing, annual report and compliance filings, business
+  licenses, virtual mail, business banking partnerships, trademark
+  registration, and ongoing bookkeeping and tax services through LZ Books and
+  LZ Tax. On the personal side it provides wills, living trusts, power of
+  attorney, prenuptial agreements, and a partner-driven divorce flow via
+  Divorce.com. Customers access an attorney-network legal advice subscription
+  (LZ Legal Services / business advisory plans) connecting them to
+  independent attorneys for consultations and document review. LegalZoom went
+  public on Nasdaq in 2021 (ticker LZ) and serves customers primarily in the
+  United States. The company's revenue model is transactional document and
+  formation fees plus recurring subscription services (registered agent,
+  compliance, attorney advice, bookkeeping). LegalZoom does not publish a
+  public developer API, OpenAPI specification, SDK, or developer portal;
+  partner integrations (e.g. divorce.com, banking partners, accounting
+  partners) appear to be private commercial arrangements rather than
+  self-service developer APIs. The legalzoom.com web app calls a set of
+  internal hosts under apigw.legalzoom.com (checkout-graphql-public-api,
+  customer, experimentation, revv, attorney-state-service, site-search) but
+  these are first-party and not documented for third-party use.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Legal
+  - Legal Technology
+  - LegalTech
+  - Business Formation
+  - LLC Formation
+  - Incorporation
+  - Registered Agent
+  - Compliance
+  - Trademark
+  - Legal Documents
+  - Estate Planning
+  - Wills
+  - Living Trusts
+  - Power of Attorney
+  - Attorney Network
+  - Small Business
+  - Bookkeeping
+  - Tax Filing
+  - Public Company
+  - NASDAQ LZ
+url: https://raw.githubusercontent.com/api-evangelist/legalzoom/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.legalzoom.com
+  - type: BusinessFormation
+    url: https://www.legalzoom.com/business
+  - type: PersonalLegal
+    url: https://www.legalzoom.com/personal
+  - type: AttorneyServices
+    url: https://www.legalzoom.com/attorneys
+  - type: Pricing
+    url: https://www.legalzoom.com/business/business-formation/llc-overview.html
+  - type: About
+    url: https://www.legalzoom.com/company/about-us.html
+  - type: Press
+    url: https://www.legalzoom.com/press
+  - type: InvestorRelations
+    url: https://investors.legalzoom.com
+  - type: SECFilings
+    url: https://investors.legalzoom.com/financials-and-filings/sec-filings
+  - type: Careers
+    url: https://www.legalzoom.com/careers/jobs
+  - type: Partners
+    url: https://www.legalzoom.com/business/partners
+  - type: AffiliateProgram
+    url: https://www.legalzoom.com/partners/affiliate-program
+  - type: HelpCenter
+    url: https://www.legalzoom.com/help
+  - type: Blog
+    url: https://www.legalzoom.com/articles
+  - type: Security
+    url: https://www.legalzoom.com/security
+  - type: PrivacyPolicy
+    url: https://www.legalzoom.com/legal/privacy-policy
+  - type: TermsOfService
+    url: https://www.legalzoom.com/legal/terms-of-service
+  - type: GitHub
+    url: https://github.com/LegalZoom
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/legalzoom-com
+  - type: Twitter
+    url: https://twitter.com/LegalZoom
+  - type: Facebook
+    url: https://www.facebook.com/legalzoom
+  - type: YouTube
+    url: https://www.youtube.com/user/legalzoom
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
