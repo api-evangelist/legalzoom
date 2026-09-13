@@ -1,0 +1,29 @@
+generated: '2026-09-11'
+method: probed
+source: https://www.legalzoom.com/mcp
+status: published
+server:
+  name: legalzoom
+  transport: http
+  url: https://www.legalzoom.com/mcp
+deployment:
+  mode: remote
+  endpoint: https://www.legalzoom.com/mcp
+  verified: probed
+  probe: live
+  checked: '2026-09-11'
+  source: docs-check 2026-09-12 (endpoint found in the provider's own documentation, then probed)
+tools_count: 5
+tools:
+- name: search-legalzoom-articles
+  description: ''
+- name: search-legalzoom-product-urls
+  description: ''
+- name: legalzoom-all-product-descriptions
+  description: ''
+- name: search_business_grants
+  description: ''
+- name: get_help
+  description: ''
+tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
+authorship: provider
