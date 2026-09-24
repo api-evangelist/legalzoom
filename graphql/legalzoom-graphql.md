@@ -1,1 +1,0 @@
-# LegalZoom GraphQL API
